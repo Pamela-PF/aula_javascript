@@ -1,47 +1,77 @@
-const a = []
-const b = a
-console.log (a === b)
+const nomes = ["Ana Maria", "Antonio", "Rodrigo", "Alex", "Cristina"]
 
-console.log ([] === []) // o local que cada vetor fica é diferente, o local na memoria
-console.log ([] == [])
+//arrow function
 
-console.log (1 == [1])
+//estamos verificando se o nome começa com a
+const resultante = nomes.filter((n) => {
+    return n.startsWith("A")
+})
+console.log(resultante)
 
-console.log ([] == false)
+// const nomes = [1, 2]
+// console.log (nomes)
+// nomes[0] = 3
+// console.log(nomes)
+// nomes = "oi"
 
-console.log (null == undefined)
+//int v [10];
+/*
+v1 = []
+v1[0] = 3.4
+v1[10] = 2
+v1[2] = "abc"
 
-console.log (null == null)
+console.log(v1.length)
+console.log(v1)
 
-console.log (1 == [1])
+for (let i = 0; i < v1.length; i++){
+    console.log (v1[i])
+}
+*/
+//const a = []
+//const b = a
+//console.log (a === b)
 
-console.log (true == 1)
+//console.log ([] === []) // o local que cada vetor fica é diferente, o local na memoria
+//console.log ([] == [])
 
-console.log (1 == 1)
-console.log (1 == "1")
-console.log (1 === 1)
-console.log (1 === "1") //não faz coerção
+//console.log (1 == [1])
+
+//console.log ([] == false)
+
+//console.log (null == undefined)
+
+//console.log (null == null)
+
+//console.log (1 == [1])
+
+//console.log (true == 1)
+
+//console.log (1 == 1)
+//console.log (1 == "1")
+//console.log (1 === 1)
+//console.log (1 === "1") //não faz coerção
 
 
-const n1 = 2
-const n2 = '3'
-const n3 = n1 + n2
+//const n1 = 2
+//const n2 = '3'
+//const n3 = n1 + n2
 //console.log(n3)
 
-const n4 = n1 + Number(n2)
-console.log(n4)
+//const n4 = n1 + Number(n2)
+//console.log(n4)
 //nome = ana
 
 //const n
-const endereco = 'rua k, 10'
-const sobrenome = `Silva`
+//const endereco = 'rua k, 10'
+//const sobrenome = `Silva`
 
 
-let a = 2
-let b = "abc"
-a = true
-a = "abc"
+//let a = 2
+//let b = "abc"
+//a = true
+//a = "abc"
 
 
-var c = 2+3
-var d = "abcd"
+//var c = 2+3
+//var d = "abcd"
